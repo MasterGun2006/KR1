@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Message base = new TextMessage("Перевірка коду");
+        Message base = new TextMessage("Перевірка     коду");
 
         System.out.println("База:           " + base.getText());
 
@@ -21,4 +21,5 @@ public class Main {
                         new EncryptDecorator(base)));
         System.out.println("\nАльтернативний порядок: " + chain2.getText());
     }
+
 }
